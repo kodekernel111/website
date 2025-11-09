@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: website
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: "kodekernel111@gmail.com"
+    password:
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.ssl.enable: true
+      mail.smtp.ssl.trust: smtp.gmail.com
+app:
+  cors:
+    allowed-origins: http://localhost:3000, http://localhost:5741
+logging:
+  level:
+    root: INFO
+    com.kodekernel: DEBUG   # your package
